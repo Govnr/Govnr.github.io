@@ -1,0 +1,25 @@
+title: Govnr
+description: Civic infrastructure for direct democracy at any scale.
+url: "https://govnr.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /updates/:year/:month/:day/:title/
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+

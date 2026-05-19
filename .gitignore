@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+dist/
+build/
+.bundle/
+vendor/
+_site/
+.jekyll-cache/
+.sass-cache/
+
